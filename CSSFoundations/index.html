@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+    <style>
+        /* div {
+            color: white;
+            background-color: black;
+        }
+        p {
+            color: red;
+        } */
+   </style>
+</head>
+
+<body>
+    <!-- Universal Selector -->
+    <p>Hi...</p>
+
+    <!-- Type Selectors -->
+    <div>Hello, World!</div>
+    <div>Hello again!</div>
+    <div>Okay, bye.</div>
+
+    <!-- Class Selectors -->
+    <div class="alert-text">Please agree to our terms of service.</div>
+
+    <!-- ID Selectors -->
+    <div id="title">My Awesome 90's Page</div>
+
+    <!-- The Grouping Selector -->
+    <div class="read">My Awesome 90's Page</div>
+
+    <!-- Chaining Selectors -->
+    <div>
+        <div class="subsection header">Latest Posts</div>
+        <p class="subsection preview">This is where a preview for a post might go.</p>
+    </div>
+
+    <!-- Descendant Combinator -->
+    <div>
+        <div class="subsection header">Latest Posts</div>
+        <p class="subsection" id="preview">
+          This is where a preview for a post might go.
+        </p>
+    </div>
+
+    <div class="ancestor">
+        first
+        <div class="contents">
+          second
+          <div class="contents">third</div>
+        </div>
+    </div>
+    <div class="contents"></div>
+
+    <!-- Image Height and Width -->
+    <img src="https://www.theodinproject.com/mstile-310x310.png">
+
+</body>
+</html>
