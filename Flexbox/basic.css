@@ -1,0 +1,46 @@
+.flex-container {
+    height: 140px;
+    padding: 16px;
+    background: plum;
+    border: 4px solid indigo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    width: 250px;
+    /* flex: 1 1 0%; */
+    flex: 1 1 auto;
+}
+
+.flex-container .one {
+    background-color: #96ceb4;	
+}
+
+/* Flex-Grow */
+.flex-container .two {
+    background-color: #ff6f69;
+    flex: 2 1 0%;
+}
+
+.flex-container .three {
+    background-color: #ab53d3;
+}
+
+/* Flex-Shrink */
+.flex-container .four {
+    background-color: #ff6f69;
+    flex-shrink: 0;
+}
+
+.flex-container .five {
+    width: 60px;
+    height: 60px;
+    border: 4px solid darkslategray;
+    background: skyblue;
+}
