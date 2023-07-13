@@ -1,4 +1,3 @@
-
 /* Universal Selector */
 * {
   color: purple;
@@ -10,11 +9,19 @@ div {
 }
 
 /* Class Selectors */
+/* case-sensitive value
 .alert-text {
     color: blue;
 }
 
+/* add multiple classes to a single element, such as class="alert-text severe-alert" */
+.alert-text severe-alert {
+    color: blue;
+}
+
 /* ID Selectors */
+/* an element can only have one ID */
+/* use for redirect to a section on the current page */
 #title {
     background-color: orange;
 }
@@ -27,14 +34,19 @@ div {
 }
 
 /* Chaining Selectors */
+/* '.subsection.header' does is it selects element has both subsection header classes */
 .subsection.header {
     color: red;
+}
+.subsection.footer {
+    color: goldenrod;
 }
 .subsection#preview {
     color: blue;
 }
 
 /* Descendant Combinator */
+/* represented in CSS by a single space between selectors */
 .ancestor .contents {
     color: green;
 }
@@ -55,11 +67,25 @@ p {
     color: hsl(15, 82%, 56%);
 }
 
+/* Typography Basics and Text-Align */
+/* font family name: "Times New Roman" */
+/* generic family name: "sans-serif" */
+
+/* font-size: 22px */
+/* font-weight: bold/700 (the equivalent of bold) */
+/* text-align: center */
+
+
 /* Image Height and Width */
+/* adjust the size without lose its proportions */
 img {
     height: auto;
     width: 500px;
 }
+
+
+
+
 
 /* Specificity */
 /* rule 1 */
@@ -124,7 +150,7 @@ div {
     padding: 30px;
     text-align: center;
     margin-bottom: 10px;
-    color: #EEEEEE;
+    color: red;
 }
   
 .introduction {

@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 
+<!-- Improving accessibility of the webpage,  screen readers, adapt according to the language and invoke correct pronunciation -->
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css" />
+    <meta charset="utf-8" />
     <title>Document</title>
+
+    <!-- Adding CSS to HTML -->
+    <!-- External CSS -->
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Internal CSS -->
     <style>
-        /* div {
-            color: white;
-            background-color: black;
+        div {
+          background-color: white;
         }
+    
         p {
-            color: red;
-        } */
-   </style>
+          color: red;
+        }
+    </style>
 </head>
 
 <body>
+    <!-- Inline CSS -->
+    <!-- Causing HTML file become unnecessarily bloated, isn’t as recommended -->
+    <div style="color: white; background-color: gray;">Inline CSS</div>
+
+    <!-- div: A <div> is one of the basic HTML elements -->
+        
     <!-- Universal Selector -->
     <p>Hi...</p>
 
@@ -38,6 +50,8 @@
     <!-- Chaining Selectors -->
     <div>
         <div class="subsection header">Latest Posts</div>
+        <div class="subsection footer">Latest Posts</div>
+        <div class="subsection preview">Latest Posts</div>
         <p class="subsection preview">This is where a preview for a post might go.</p>
     </div>
 
@@ -53,13 +67,17 @@
         first
         <div class="contents">
           second
-          <div class="contents">third</div>
+            <div class="contents">
+              third
+            </div>
         </div>
     </div>
-    <div class="contents"></div>
 
     <!-- Image Height and Width -->
     <img src="https://www.theodinproject.com/mstile-310x310.png">
+
+
+
 
 
     <!-- Specificity -->
