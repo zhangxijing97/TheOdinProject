@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<!-- Improving accessibility of the webpage,  screen readers, adapt according to the language and invoke correct pronunciation -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Document</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="index.css" />
+
+</head>
+
+<body>
+
+<!-- Example 1 -->
+<div class="main">
+  <div class="list subsection">
+    Rule 2 is more specific because it is using more class selectors
+  </div>
+</div>
+
+<div class="main">
+  <div class="list" id="subsection">
+    Rule 1 is more specific because ID beats class
+  </div>
+</div>
+
+<!-- Example 2 -->
+<!-- rule 1 and rule 2 have the same specificity -->
+<div class="class second-class">20px</div>
+
+<div class="class">
+  <div class="second-class">
+    30px
+  </div>
+</div>
+
+<!-- Example 3 -->
+<div>Universal selecto has no specificity value</div>
+<h1>Type selector has lowest specificity value</h1>
+
+<!-- Example 4 -->
+<div id="parent">
+  Parent
+  <div class="child">Child</div>
+</div>
+
+<div class="alert">
+  Alert
+  <div class="warning">Warning</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+/* Example 1 */
+/* rule 1 */
+#subsection {
+  color: blue;
+}
+  
+/* rule 2 */
+.main .list {
+  color: red;
+}
+
+/* Example 2 */
+/* rule 1 */
+.class.second-class {
+  font-size: 20px;
+}
+  
+/* rule 2 */
+.class .second-class {
+  font-size: 30px;
+}
+
+/* Example 3 */
+* {
+  color: black;
+}
+
+/* rule 2 */
+h1 {
+  color: orange;
+}
+
+/* Example 4 */
+#parent {
+  color: red;
+}
+
+.child {
+  color: blue;
+}
+
+/* Example 5 */
+.alert {
+  color: red;
+}
+
+.warning {
+  color: green;
+}
