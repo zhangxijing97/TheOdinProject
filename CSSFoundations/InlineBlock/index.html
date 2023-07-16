@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<!-- Improving accessibility of the webpage,  screen readers, adapt according to the language and invoke correct pronunciation -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Document</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<!-- padding: space between border of boxs and content of boxs -->
+<!-- margin: space between borders of a box and the borders of adjacent boxes -->
+<!-- border: adds space between the margin and the padding -->
+<body>
+  
+  <!-- block: -->
+  <!-- The box will onto a new line. -->
+  <!-- The width and height properties are respected. -->
+  <!-- Padding, margin and border will cause other elements to be pushed away from the box. -->
+  <!-- If width is not specified, the box will extend in the inline direction to fill the space available in its container. In most cases, the box will become as wide as its container, filling up 100% of the space available. -->
+
+  <p>I am a paragraph. A short one.</p>
+  <ul>
+    <li>Item One</li>
+    <li>Item Two</li>
+    <li>Item Three</li>
+  </ul>
+  <p>I am another paragraph. Some of the <span class="block">words</span> have been wrapped in a <span>span element</span>.</p> 
+
+  <!-- inline -->
+  <p>
+    I am a paragraph. Some of the
+    <span>words</span> have been wrapped in a
+    <span>span element</span>.
+  </p>     
+  <ul>
+    <li>Item One</li>
+    <li>Item Two</li>
+    <li>Item Three</li>
+  </ul>
+  <p class="inline">I am a paragraph. A short one.</p>
+  <p class="inline">I am another paragraph. Also a short one.</p>
+
+  <!-- The standard CSS box model -->
+  <div class="box">
+    <p>The standard CSS box model</p>
+    <p>410px wide (350 + 25 + 25 + 5 + 5) and 210px high (150 + 25 + 25 + 5 + 5)</p>
+  </div>
+
+  <!-- The alternative CSS box model -->
+  <div class="altbox">
+    <p>The alternative CSS box model</p>
+    <p>350px in the inline direction and 150px in the block direction</p>
+  </div>
+
+</body>
+</html>
