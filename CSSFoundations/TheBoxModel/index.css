@@ -1,0 +1,15 @@
+H1 {
+  border: 2px solid red;
+}
+
+ul {
+  border: 2px solid rebeccapurple;
+  padding: .5em;
+  display: flex;
+  list-style: none;
+}
+
+li {
+  border: 2px solid blue;
+  padding: .5em;
+}
