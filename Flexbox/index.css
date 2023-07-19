@@ -12,7 +12,7 @@
     background: plum;
     border: 4px solid indigo;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     gap: 16px;
 }
 
@@ -29,12 +29,12 @@
     border: 4px solid brown;
     height: 100px;
     width: 100px;
-    flex: 1;
+    /* flex: 1; */
 }
 
 .flex-container .green {
     background-color: #96ceb4;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
 }
 
 /* Flex-Grow */
@@ -51,7 +51,6 @@
 /* Flex-Shrink */
 .flex-container .grey {
     background-color: grey;
-    /* flex-shrink: 0; */
     flex-basis: 300px;
 }
 
@@ -63,4 +62,27 @@
     align-self: flex-start;
     font-size: 3rem;
     color: white;
+}
+
+/* flex: 1 1 auto = flex-grow = 1, flex-shrink = 1, flex-basis = auto */
+.flex-container .grow01 {
+    background: green;
+    flex-grow: 1;
+}
+
+.flex-container .grow02 {
+    background: orange;
+    flex-grow: 0;
+}
+
+.flex-container .shrink01 {
+    background: green;
+    width: 200px;
+    flex-shrink: 1;
+}
+
+.flex-container .shrink02 {
+    background: orange;
+    width: 200px;
+    flex-shrink: 0;
 }
