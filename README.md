@@ -3,7 +3,7 @@
 | Project | Topic|Repository| Live Preview                       
 |--|-----|-----|------|
 |**Recipes**| HTML Foundations|[Link](https://github.com/zhangxijing97/TheOdinProject/tree/main/Project-Recipes)     |   [Demo](https://zhangxijing97.github.io/TheOdinProject/Project-Recipes/) 
-|**Landing Page**| Flexbox |[Link](https://github.com/zhangxijing97/Project-LandingPage/)     |   [Demo](https://zhangxijing97.github.io/TheOdinProject/Project-LandingPage/)
+|**Landing Page**| Flexbox |[Link](https://github.com/zhangxijing97/TheOdinProject/tree/main/Project-LandingPage)     |   [Demo](https://zhangxijing97.github.io/TheOdinProject/Project-LandingPage/)
 |**Rock Paper Scissors**|JavaScript Basics| [Link](https://github.com/zhangxijing97/TheOdinProject/)     |   [Demo](https://github.com/zhangxijing97/TheOdinProject/) 
 |**Etch-a-Sketch**|JavaScript Basics| [Link](https://github.com/zhangxijing97/TheOdinProject/)     |   [Demo](https://github.com/zhangxijing97/TheOdinProject/) 
 |**Calculator** | JavaScript Basics|[Link](https://github.com/zhangxijing97/TheOdinProject/)   |   [Demo](https://github.com/zhangxijing97/TheOdinProject/) 
