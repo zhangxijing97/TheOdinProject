@@ -154,8 +154,7 @@ body {
   flex-direction: column;
   height: 400px;
   background-color: white;
-  border: 4px solid brown;
-  /* justify-content: center; */
+  justify-content: center;
   padding-left: 200px;
   padding-right: 200px;
   padding-top: 100px;
@@ -169,12 +168,14 @@ body {
   font-size: 36px;
   font-weight: bold;
   justify-content: center;
-  padding-bottom: 50px;
+  margin-bottom: 90px;
 }
 
 .section02 .grid {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 
 .section02 .grid .box {
@@ -183,4 +184,126 @@ body {
   border-radius: 14px;
   border: 4px solid #3882F6;
   flex-shrink: 0;
+  margin-bottom: 20px;
+}
+
+.section02 .grid .text {
+  color: #2d3c50;
+  width: 200px;
+  border: 4px solid white;
+  flex-shrink: 0;
+}
+
+.section03 {
+  display: flex;
+
+  flex-direction: column;
+  height: 400px;
+  background-color: #E5E7EB;
+  justify-content: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section03 .text {
+  color: #2d3c50;
+  font-size: 36px;
+  font-weight:lighter;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.section03 .name {
+  display: flex;
+
+  color: #2d3c50;
+  font-size: 24px;
+  font-weight: bold;
+  justify-content: flex-end
+}
+
+.section04 {
+  display: flex;
+
+  flex-direction: column;
+  height: 300px;
+  background-color: white;
+  justify-content: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section04 .quote {
+  display: flex;
+
+  height: 150px;
+  border-radius: 14px;
+  color: white;
+  background-color: #3882F6;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section04 .quote .text{
+  display: flex;
+  flex-direction: column;
+}
+
+.section04 .quote .text .title{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.section04 .quote .text .content{
+  font-size: 18px;
+}
+
+.section04 .quote .button{
+  padding-bottom: 0;
+}
+
+.section04 .quote .button ul {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.section04 .quote .button a {
+  display: flex;
+
+  height: 42px;
+  width: 150px;
+  border-radius: 14px;
+  color: white;
+  background-color: #3882F6;
+  border: 2px solid white;
+  font-size: 18px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.section04 .quote .button a:hover {
+  color: #2d3c50;
+  background-color: white;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.footer {
+  display: flex;
+
+  height: 100px;
+  color: white;
+  background-color: #2d3c50;
+  align-items: center;
+  justify-content: center;
 }
