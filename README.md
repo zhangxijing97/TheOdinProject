@@ -13,20 +13,20 @@
 
 | Project | Topic |Repository| Live Preview|                
 |----|----|---|---|
-|**Sign-up Form**| Forms|[Link](https://github.com/creme332/my-odin-projects/tree/main/sign-up-form)     |   [Demo](https://creme332.github.io/my-odin-projects/sign-up-form/)
-**Admin Dashboard**| Grid|[Link](https://github.com/creme332/my-odin-projects/tree/main/admin-dashboard)     |   [Demo](https://creme332.github.io/my-odin-projects/admin-dashboard/)
-**Library** | Objects and Object constructors, OOP|[Link](https://github.com/creme332/my-odin-projects/tree/main/library)     |   [Demo](https://creme332.github.io/my-odin-projects/library/)
-**Tic Tac Toe**| Factory functions and module patterns|[Link](https://github.com/creme332/my-odin-projects/tree/main/tic-tac-toe)     |   [Demo](https://creme332.github.io/my-odin-projects/tic-tac-toe/)
-**Restaurant Page**| ES6 modules, Webpack|[Link](https://github.com/creme332/my-odin-projects/tree/main/restaurant-page)     |   [Demo](https://creme332.github.io/my-odin-projects/restaurant-page/dist/)
+|**Sign-up Form**| Forms|[Link](https://github.com/zhangxijing97/TheOdinProject/)     |   [Demo](https://github.com/zhangxijing97/TheOdinProject/)
+**Admin Dashboard**| Grid|[Link](https://github.com/zhangxijing97/TheOdinProject/)     |   [Demo](https://github.com/zhangxijing97/TheOdinProject/)
+**Library** | Objects and Object constructors, OOP|[Link](https://github.com/zhangxijing97/TheOdinProject/)     |   [Demo](https://github.com/zhangxijing97/TheOdinProject/)
+**Tic Tac Toe**| Factory functions and module patterns|[Link](https://github.com/zhangxijing97/TheOdinProject/)     |   [Demo](https://github.com/zhangxijing97/TheOdinProject/)
+**Restaurant Page**| ES6 modules, Webpack|[Link](https://github.com/zhangxijing97/TheOdinProject/)     |   [Demo](https://github.com/zhangxijing97/TheOdinProject/)
 **Todo List**| SOLID principles|[Link](https://github.com/creme332/my-odin-projects/tree/main/todo-list)     |   [Demo](https://creme332.github.io/my-odin-projects/todo-list/dist/)
-**Weather App**| Asynchronous JavaScript and APIs|[Link](https://github.com/creme332/my-odin-projects/tree/main/weather-app)     |   [Demo](https://creme332.github.io/my-odin-projects/weather-app/dist/)
-**Merge Sort** | Recursion|[Link](https://github.com/creme332/my-odin-projects/tree/main/merge-sort)     | -   | -
-**Linked Lists** | Data structures and algorithms|[Link](https://github.com/creme332/my-odin-projects/tree/main/linked-lists)     | -   | -
-**Binary Search Trees** |Data structures and algorithms|[Link](https://github.com/creme332/my-odin-projects/tree/main/binary-search-trees)     | -   | -
-**Knights Travails** | Data structures and algorithms|[Link](https://github.com/creme332/my-odin-projects/tree/main/knights-travails)     |  [Demo](https://creme332.github.io/my-odin-projects/knights-travails/dist)  | ⭐⭐
-**Testing Practice** | Test Driven Development|[Link](https://github.com/creme332/my-odin-projects/tree/main/testing-practice)     |  -  | -
-**Battleship** | Test Driven Development|[Link](https://github.com/creme332/my-odin-projects/tree/main/battleship)     |  [Demo](https://creme332.github.io/my-odin-projects/battleship/dist)
-**CV Application** | React |[Link](https://github.com/creme332/my-odin-projects/tree/main/cv-project)     |  [Demo](https://creme332.github.io/my-odin-projects/cv-project/build)
-**Memory Card** | React Hooks|[Link](https://github.com/creme332/my-odin-projects/tree/main/memory-card)     |  [Demo](https://creme332.github.io/my-odin-projects/memory-card/build)
-**Shopping Cart** | React Router, UI testing|[Link](https://github.com/creme332/my-odin-projects/tree/main/shopping-cart)     |  [Demo](https://creme332.github.io/my-odin-projects/shopping-cart/build)
-**Photo Tagging App** | Backend(Firebase)|[Link](https://github.com/creme332/my-odin-projects/tree/main/photo-tagging)     |  [Demo](https://enigma69.web.app/)
+**Weather App**| Asynchronous JavaScript and APIs|[Link](https://github.com/zhangxijing97/TheOdinProject/)     |   [Demo](https://github.com/zhangxijing97/TheOdinProject/)
+**Merge Sort** | Recursion|[Link](https://github.com/zhangxijing97/TheOdinProject/)     | -   | -
+**Linked Lists** | Data structures and algorithms|[Link](https://github.com/zhangxijing97/TheOdinProject/)     | -   | -
+**Binary Search Trees** |Data structures and algorithms|[Link](https://github.com/zhangxijing97/TheOdinProject/)     | -   | -
+**Knights Travails** | Data structures and algorithms|[Link](https://github.com/zhangxijing97/TheOdinProject/)     |  [Demo](https://github.com/zhangxijing97/TheOdinProject/)  | 
+**Testing Practice** | Test Driven Development|[Link](https://github.com/zhangxijing97/TheOdinProject/)     |  -  | -
+**Battleship** | Test Driven Development|[Link](https://github.com/zhangxijing97/TheOdinProject/)     |  [Demo](https://github.com/zhangxijing97/TheOdinProject/)
+**CV Application** | React |[Link](https://github.com/zhangxijing97/TheOdinProject/)     |  [Demo](https://github.com/zhangxijing97/TheOdinProject/)
+**Memory Card** | React Hooks|[Link](https://github.com/zhangxijing97/TheOdinProject/)     |  [Demo](https://github.com/zhangxijing97/TheOdinProject/)
+**Shopping Cart** | React Router, UI testing|[Link](https://github.com/zhangxijing97/TheOdinProject/)     |  [Demo](https://github.com/zhangxijing97/TheOdinProject/)
+**Photo Tagging App** | Backend(Firebase)|[Link](https://github.com/zhangxijing97/TheOdinProject/)     |  [Demo](https://github.com/zhangxijing97/TheOdinProject/)
