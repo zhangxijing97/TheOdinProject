@@ -1,50 +1,186 @@
 body {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-    align-items: space-around;
-    font-family: "truenoexbd";
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+
+  font-family: sans-serif;
 }
 
+/* Header */
 .header {
-    height: 10vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* margin-left: 90px; */
-    /* margin-left: 90px; */
+  display: flex;
 
-    /* padding-left: 90px; */
-    /* padding-right: 90px; */
-    /* margin-top:10px; */
-    /* border: 1px solid rgb(0, 236, 142); */
+  height: 100px;
+  background: #2d3c50;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
-.top-section {
-    padding-left: 90px;
-    padding-right: 90px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* height: 100vh; */
-    height: auto;
-    /* border:5px solid tomato; */
-    background-color: #2d3c50;
-    color: white;
+.header .logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  transition: color 0.5s ease;
 }
 
-/* .header { */
-    /* display: flex; */
+.header .logo:hover {
+  color: #3882F6;
+  transition: color 0.5s ease;
+}
 
-    /* background: #1F2937;
-    height: 100px;
-} */
+.header .link ul {
+  display: flex;
 
-/* .header div {
-    background: peachpuff;
-    border: 4px solid brown;
-    height: 50px;
-    width: 50px;
-} */
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.header .link ul li{
+  padding-left: 42px;
+}
+
+.header .link a {
+  display: flex;
+
+  height: 42px;
+  width: 150px;
+  border-radius: 14px;
+  color: #E5E7EB;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.header .link a:hover {
+  color: #2d3c50;
+  background-color: white;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+/* Section01 */
+.section01 {
+  display: flex;
+
+  height: 400px;
+  background-color: #2d3c50;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section01 .text {
+  display: flex;
+  flex-direction: column;
+
+  /* border: 4px solid brown; */
+  justify-content: center;
+  padding-right: 100px;
+  flex: 1;
+}
+
+.section01 .image {
+  display: flex;
+
+  color: #2d3c50;
+  background-color: #E5E7EB;
+  align-items: center;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  flex: 1;
+  flex-shrink: 0;
+}
+
+.section01 .text .title{
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.section01 .text .content{
+  color: #E5E7EB;
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+
+.section01 .text .button{
+  padding-bottom: 0;
+}
+
+.section01 .text .button ul {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.section01 .text .button a {
+  display: flex;
+
+  height: 42px;
+  width: 150px;
+  border-radius: 14px;
+  color: white;
+  background-color: #3882F6;
+  font-size: 18px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.section01 .text .button a:hover {
+  color: #2d3c50;
+  background-color: white;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.section02 {
+  display: flex;
+
+  flex-direction: column;
+  height: 400px;
+  background-color: white;
+  border: 4px solid brown;
+  /* justify-content: center; */
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section02 .title {
+  display: flex;
+
+  color: #2d3c50;
+  font-size: 36px;
+  font-weight: bold;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.section02 .grid {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section02 .grid .box {
+  height: 200px;
+  width: 200px;
+  border-radius: 14px;
+  border: 4px solid #3882F6;
+  flex-shrink: 0;
+}
