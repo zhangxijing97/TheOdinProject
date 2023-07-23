@@ -9,15 +9,12 @@
         width: 100%;
         height: inherit;
       }
-
       canvas {
         display: block;
       }
-
       body {
         margin: 0;
       }
-
       button {
         position: absolute;
         top: 5px;
@@ -26,12 +23,8 @@
     </style>
   </head>
   <body>
-
   <button>Update</button>
-
   <canvas></canvas>
-
-
     <script>
     const btn = document.querySelector('button');
     const canvas = document.querySelector('canvas');
@@ -47,19 +40,42 @@
       return Math.floor(Math.random()*number);
     }
 
+    // color
+    function random255() {
+      return Math.floor(Math.random() * 255);
+    }
+
+    function randomAlpha() {
+      return Math.random();
+    }
+
     function draw() {
       ctx.clearRect(0,0,WIDTH,HEIGHT);
-      for(let i = 0; i < 100; i++) {
+      for(let i = 0; i < 200; i++) {
+        // color
+        const red = random255();
+        const green = random255();
+        const blue = random255();
+        const alpha = randomAlpha();
+
         ctx.beginPath();
-        ctx.fillStyle = 'rgba(255,0,0,0.5)';
+        // ctx.fillStyle = 'rgba(255,0,0,0.5)';
+        ctx.fillStyle = `rgba(${red}, ${green}, ${blue}, ${alpha})`;
         ctx.arc(random(WIDTH), random(HEIGHT), random(50), 0, 2 * Math.PI);
         ctx.fill();
       }
     }
+    function resizeCanvas() {
+      WIDTH = document.documentElement.clientWidth;
+      HEIGHT = document.documentElement.clientHeight;
+      canvas.width = WIDTH;
+      canvas.height = HEIGHT;
+      draw(); // Redraw the circles when the canvas size changes
+    }
 
     btn.addEventListener('click',draw);
+    window.addEventListener('resize', resizeCanvas);
 
     </script>
-
   </body>
 </html>
