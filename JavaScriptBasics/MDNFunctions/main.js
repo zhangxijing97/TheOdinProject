@@ -1,42 +1,24 @@
-// Variables and Data Types
-let name = 'John';
-let age = 25;
-let isStudent = true;
-let favoriteFruits = ['apple', 'banana', 'orange'];
+// manipulated a text string
+const myText = "I am a string";
+const newString = myText.replace("string", "sausage");
+console.log(newString);
 
-console.log(name);
-console.log(age);
-console.log(isStudent);
-console.log(favoriteFruits);
+// manipulated an array
+// all the array items together into a single
+const myArray = ["I", "love", "chocolate", "frogs"];
+const madeAString = myArray.join(" ");
+console.log(madeAString);
 
-// Conditional Statements (if-else)
-let temperature = 30;
+// generate a random number
+const myNumber = Math.random();
+console.log(myNumber);
 
-if (temperature > 30) {
-  console.log("It's hot outside!");
-} else if (temperature < 10) {
-  console.log("It's cold outside!");
-} else {
-  console.log("The temperature is moderate.");
-}
-
-// Loops (for loop)
-for (let i = 0; i < 5; i++) {
-  console.log("Count: " + i);
-}
-
-// Functions
-function greet(name) {
-  console.log("Hello, " + name + "!");
-}
-
-greet("Alice");
-greet("Bob");
-
-// DOM Manipulation
-// Assuming you have an element with id 'myButton' in your HTML
-let button = document.getElementById('myButton');
-
-// button.addEventListener('click', function() {
-//   alert('Button clicked!');
-// });
+// canvas example
+const canvas = document.querySelector("canvas");
+const ctx = canvas.getContext("2d");
+ctx.fillStyle = "green";
+// Add a rectangle at (10, 10) with size 100x100 pixels
+ctx.fillRect(10, 10, 100, 100);
+// Add a rectangle at (10, 10) with size 100x100 pixels
+ctx.fillStyle = "blue";
+ctx.fillRect(10, 200, 150, 150);
