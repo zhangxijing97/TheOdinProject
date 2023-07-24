@@ -28,11 +28,13 @@
     <script>
     const btn = document.querySelector('button');
     const canvas = document.querySelector('canvas');
+    // get access to the canvas tags 2D drawing functions
     const ctx = canvas.getContext('2d');
 
     let WIDTH = document.documentElement.clientWidth;
     let HEIGHT = document.documentElement.clientHeight;
 
+    // Make width/height of canvas match client
     canvas.width = WIDTH;
     canvas.height = HEIGHT;
 
@@ -40,7 +42,7 @@
       return Math.floor(Math.random()*number);
     }
 
-    // color
+    // Generate color
     function random255() {
       return Math.floor(Math.random() * 255);
     }
@@ -50,7 +52,7 @@
     }
 
     function draw() {
-      ctx.clearRect(0,0,WIDTH,HEIGHT);
+      // ctx.clearRect(0,0,WIDTH,HEIGHT);
       for(let i = 0; i < 200; i++) {
         // color
         const red = random255();
@@ -73,7 +75,9 @@
       draw(); // Redraw the circles when the canvas size changes
     }
 
+    //
     btn.addEventListener('click',draw);
+    window.addEventListener('click', draw);
     window.addEventListener('resize', resizeCanvas);
 
     </script>
