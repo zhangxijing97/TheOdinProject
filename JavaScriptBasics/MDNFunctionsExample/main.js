@@ -53,3 +53,41 @@ textBox01.addEventListener("keydown", logKey);
 textBox02.addEventListener("keydown", function (event) {
   console.log(`You pressed "${event.key}".`);
 });
+
+textBox03.addEventListener("keydown", function (event) {
+  console.log(`You clicked on element with ID "${event.target.id}".`);
+});
+
+textBox04.addEventListener("keydown", function (event) {
+  console.log(`Event type: ${event.type}`);
+});
+
+textBox05.addEventListener("mouseover", function (event) {
+  console.log(`Mouse coordinates: X=${event.clientX}, Y=${event.clientY}`);
+});
+
+textBox06.addEventListener("keydown", function (event) {
+  console.log(`Key code: ${event.keyCode}`);
+});
+
+// Arrow functions
+textBox07.addEventListener("keydown", (event) => {
+  console.log(`You pressed "${event.key}".`);
+});
+
+function doubleItem(item) { // Function
+  return item * 2;
+}
+const originals01 = [1, 2, 3];
+const doubled01 = originals01.map(doubleItem);
+console.log(doubled01); // Output: [2, 4, 6]
+
+const originals02 = [1, 2, 3]; // Anonymous function
+const doubled02 = originals02.map(function(item) {
+  return item * 2;
+});
+console.log(doubled02); // Output: [2, 4, 6]
+
+const originals03 = [1, 2, 3]; // Arrow function
+const doubled03 = originals03.map(item => item * 2);
+console.log(doubled03); // [2, 4, 6]
