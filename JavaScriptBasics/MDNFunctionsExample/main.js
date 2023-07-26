@@ -88,6 +88,7 @@ const doubled02 = originals02.map(function(item) {
 });
 console.log(doubled02); // Output: [2, 4, 6]
 
+
 const originals03 = [1, 2, 3]; // Arrow function
 const doubled03 = originals03.map(item => item * 2);
 console.log(doubled03); // [2, 4, 6]
