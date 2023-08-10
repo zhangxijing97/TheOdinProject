@@ -45,37 +45,27 @@ let string09 = "10";
 let string10 = string08 / string09;
 console.log(string10);
 
+let NotANumber = 100 / "Apple"; // Not a Number
+console.log(NotANumber);
 
-
-
-// Conditional Statements (if-else)
-let temperature = 30;
-
-if (temperature > 30) {
-  console.log("It's hot outside!");
-} else if (temperature < 10) {
-  console.log("It's cold outside!");
-} else {
-  console.log("The temperature is moderate.");
+let myNumber01 = 2; // Infinity
+while (myNumber01 != Infinity) {
+  myNumber01 = myNumber01 * myNumber01;
 }
+console.log(myNumber01);
 
-// Loops (for loop)
-for (let i = 0; i < 5; i++) {
-  console.log("Count: " + i);
-}
+let hexadecimal = 0xFF; // Hexadecimal
+console.log(hexadecimal);
 
-// Functions
-function greet(name) {
-  console.log("Hello, " + name + "!");
-}
+let myNumber = 32; // Concert to Hexadecimal/Decimal/Octal/Binary
+console.log(myNumber.toString(32));
+console.log(myNumber.toString(16));
+console.log(myNumber.toString(12));
+console.log(myNumber.toString(10));
+console.log(myNumber.toString(8));
+console.log(myNumber.toString(2));
 
-greet("Alice");
-greet("Bob");
-
-// DOM Manipulation
-// Assuming you have an element with id 'myButton' in your HTML
-let button = document.getElementById('myButton');
-
-// button.addEventListener('click', function() {
-//   alert('Button clicked!');
-// });
+let numberTest01 = 123; // JavaScript Numbers as Objects
+let numberTest02 = new Number(123);
+console.log(numberTest01);
+console.log(numberTest02);
