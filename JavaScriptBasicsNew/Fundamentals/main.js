@@ -148,3 +148,93 @@ let result10 = '' === false;
 let result11 = 0 === undefined > 0; // An incomparable undefined
 let result12 = 0 === undefined < 0;
 let result13 = 0 === undefined == 0;
+
+// Conditional Statements (if-else)
+let temperature = 30;
+
+if (temperature > 30) {
+  console.log("It's hot outside!");
+} else if (temperature < 10) {
+  console.log("It's cold outside!");
+} else {
+  console.log("The temperature is moderate.");
+}
+
+// Loops (for loop)
+for (let i = 0; i < 5; i++) {
+  console.log("Count: " + i);
+}
+
+// Functions
+const canvas = document.querySelector("canvas"); // Canvas
+const ctx = canvas.getContext("2d");
+
+function drawBlueRectangle() { // Function to draw the initial blue rectangle
+  ctx.fillStyle = "blue";
+  ctx.fillRect(0, 0, 150, 150);
+}
+
+function drawRedRectangle() { // Function to draw the red rectangle on mouseover
+  ctx.fillStyle = "red";
+  ctx.fillRect(0, 0, 150, 150);
+}
+
+function drawGreenRectangle() { // Function to draw the green rectangle on mouseover
+  ctx.fillStyle = "green";
+  ctx.fillRect(0, 0, 150, 150);
+}
+
+canvas.addEventListener("mouseover", function(event) { // Add the event listener to the canvas element
+  drawRedRectangle();
+});
+
+canvas.addEventListener("mouseout", function(event) {
+  drawBlueRectangle();
+});
+
+canvas.addEventListener("click", drawGreenRectangle);
+
+drawBlueRectangle();
+
+// Optional parameters
+const myArray = ["I", "love", "chocolate", "frogs"]; // all the array items together into a single
+const madeAString = myArray.join(" ");
+console.log(madeAString);
+
+const madeAnotherString = myArray.join(); // If no parameter, a comma is used by default.
+console.log(madeAnotherString);
+
+function hello(name = "Chris") {
+  console.log(`Hello ${name}!`);
+}
+
+// Default parameters
+hello("Ari"); // Hello Ari!
+hello(); // Hello Chris!
+
+// Anonymous function
+function myFunction() { // function
+  alert("hello");
+}
+
+// Immediately Invoked Function Expression (IIFE)
+// Invoke it with '()' before ';'
+(function () { // anonymous function
+  alert("hello");
+});
+
+// Anonymous function example
+// event.target.id/event.type/event.clientX/event.clientY/event.keyCode
+function logKey(event) { // function
+  console.log(`You pressed "${event.key}".`);
+}
+textBox.addEventListener("keydown", logKey);
+// Or
+textBox.addEventListener("keydown", function (event) { // anonymous function
+  console.log(`You pressed "${event.key}".`);
+});
+
+// map() method
+const originals = [1, 2, 3];
+const doubled = originals.map(item => item * 2);
+console.log(doubled); // [2, 4, 6]
