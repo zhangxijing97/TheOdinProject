@@ -69,3 +69,82 @@ let numberTest01 = 123; // JavaScript Numbers as Objects
 let numberTest02 = new Number(123);
 console.log(numberTest01);
 console.log(numberTest02);
+
+// String
+const string = "The revolution will not be televised.";
+console.log(string);
+
+const sgl = 'Single quotes.'; // Both of the following will work okay
+const dbl = "Double quotes";
+console.log(sgl);
+console.log(dbl);
+
+const bigmouth = 'I\'ve got no right to take my place…'; // Escaping characters
+console.log(bigmouth);
+
+const name = "Chris"; // Concatenating strings
+const greeting = `Hello, ${name}`;
+console.log(greeting); // "Hello, Chris"
+
+const one = "Hello, ";
+const two = "how are you?";
+const joined = `${one}${two}`;
+console.log(joined); // "Hello, how are you?"
+
+const button = document.querySelector("button");
+
+function greet() {
+  const name = prompt("What is your name?");
+  alert(`Hello ${name}, nice to see you!`);
+}
+
+button.addEventListener("click", greet);
+
+const string01 = "Front "; // Numbers vs. strings
+const number = 242;
+console.log(`${string01}${number}`); // "Front 242"
+
+const myString = "123"; // string to number
+const myNum = Number(myString);
+console.log(typeof myNum);
+
+const myNum2 = 123; // number to string
+const myString2 = myNum2.toString();
+console.log(typeof myString2);
+
+const song = "Fight the Youth"; // Including expressions in strings
+const score = 9;
+const highestScore = 10;
+const output01 = `I like the song ${song}. I gave it a score of ${
+  (score / highestScore) * 100
+}%.`;
+console.log(output01); // "I like the song Fight the Youth. I gave it a score of 90%."
+
+// Multiline strings
+const output02 = `I like the song.
+I gave it a score of 90%.`;
+console.log(output02);
+
+const output03 = "I like the song.\nI gave it a score of 90%.";
+console.log(output03);
+
+// Comparisons
+let result01 = 5 > 4; // assign the result of the comparison
+console.log(result01);
+
+let result02 = 'Z' > 'A'; // String comparison
+let result03 = 'Glow' > 'Glee';
+let result04 = 'Bee' > 'Be';
+
+let result05 = '2' > 1; // Comparison of different types
+let result06 = '01' == 1;
+
+let result07 = 0 == false; // Segular equality
+let result08 = '' == false;
+
+let result09 = 0 === false; // Strict equality, will be false
+let result10 = '' === false;
+
+let result11 = 0 === undefined > 0; // An incomparable undefined
+let result12 = 0 === undefined < 0;
+let result13 = 0 === undefined == 0;
